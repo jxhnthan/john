@@ -63,19 +63,23 @@ for (page_num in 1:20) {
 
 So what exactly are we doing here? Let's break down the code bit by bit:
 
+Firstly, we're using sets up a *for loop* that will iterate through 20 pages of Google News Singapore search results related to climate change. The loop variable, page_num, will take on values from 1 to 20.
+
 ```{r}
 for (page_num in 1:20) {
    ...
 }
 ```
-Firstly, we're using sets up a *for loop* that will iterate through 20 pages of Google News Singapore search results related to climate change. The loop variable, page_num, will take on values from 1 to 20.
+
+Next, this line of code constructs a URL for a specific page of Google News search results. The URL is built using the paste0() function, which concatenates its arguments into a single string with no separator.
+
+The expression *(page_num - 1) * 100* calculates the starting index for the search results to be displayed on each page.
 
 ```{r}
 url <- paste0(base_url, "/search?q=Climate%20Change&hl=en-SG&gl=SG&ceid=SG%3Aen",(page_num - 1) * 100)
 ```
-Next, this line of code constructs a URL for a specific page of Google News search results. The URL is built using the paste0() function, which concatenates its arguments into a single string with no separator.
 
-The expression *(page_num - 1) * 100* calculates the starting index for the search results to be displayed on each page.
+Here, we're extracting the information that we want from each search result - the title of the news article, the date of the news article, the URL of the news article, the news outlet and the relevant link.
 
 ```{r}
  news_div <- html_nodes(webpage, ".xrnccd")
@@ -85,7 +89,6 @@ The expression *(page_num - 1) * 100* calculates the starting index for the sear
   news_outlet <- html_nodes(news_div, ".wEwyrc") %>% html_text()
   news_link <- lapply(news_url, function(url) paste0(base_url, url))
 ```
-Here, we're extracting the information that we want from each search result - the title of the news article, the date of the news article, the URL of the news article, the news outlet and the relevant link.
 
 
 

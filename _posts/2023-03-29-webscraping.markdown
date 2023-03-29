@@ -2,7 +2,7 @@
 title: "Webscraping Google News"
 layout: post
 date: 2023-01-23 22:10
-tag: jekyll
+tag: r
 image: false
 headerImage: false
 projects: true

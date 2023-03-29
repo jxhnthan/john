@@ -13,4 +13,6 @@ author: johndoe
 externalLink: false
 ---
 
-What exactly is webscraping?
+## What exactly is webscraping
+
+Web scraping (or data scraping) is a technique used to collect content and data from the internet.

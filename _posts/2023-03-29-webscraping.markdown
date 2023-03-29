@@ -77,6 +77,18 @@ Next, this line of code constructs a URL for a specific page of Google News sear
 
 The expression *(page_num - 1) * 100* calculates the starting index for the search results to be displayed on each page.
 
+```{r}
+ news_div <- html_nodes(webpage, ".xrnccd")
+  news_title <- html_nodes(news_div, ".DY5T1d") %>% html_text()
+  news_date <- html_nodes(news_div, ".WW6dff") %>% html_text()
+  news_url <- html_nodes(news_div, ".DY5T1d") %>% html_attr("href") %>% str_remove("^\\.")
+  news_outlet <- html_nodes(news_div, ".wEwyrc") %>% html_text()
+  news_link <- lapply(news_url, function(url) paste0(base_url, url))
+```
+Here, we're extracting the information that we want from each search result - the title of the news article, the date of the news article, the URL of the news article, the news outlet and the relevant link.
+
+
+
 
 
 [1]: https://posit.co/products/open-source/rstudio/

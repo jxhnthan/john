@@ -12,3 +12,7 @@ category: project
 author: john
 externalLink: false
 ---
+
+## Research Question
+
+Placeholder.

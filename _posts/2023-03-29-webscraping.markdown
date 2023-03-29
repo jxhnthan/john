@@ -38,6 +38,27 @@ Next, we will be setting the base website URL that R will scrape the data from
 base_url <- "https://news.google.com"
 ```
 
+Alright, here's where the magic happens:
+
+```{r}
+for (page_num in 1:20) {
+  url <- paste0(base_url, "/search?q=Climate%20Change&hl=en-SG&gl=SG&ceid=SG%3Aen",(page_num - 1) * 100)
+  webpage <- read_html(url)
+  news_div <- html_nodes(webpage, ".xrnccd")
+  news_title <- html_nodes(news_div, ".DY5T1d") %>% html_text()
+  news_date <- html_nodes(news_div, ".WW6dff") %>% html_text()
+  news_url <- html_nodes(news_div, ".DY5T1d") %>% html_attr("href") %>% str_remove("^\\.")
+  news_outlet <- html_nodes(news_div, ".wEwyrc") %>% html_text()
+  news_link <- lapply(news_url, function(url) paste0(base_url, url))
+  page_df <- data.frame(title = news_title, outlet = news_outlet, link = unlist(news_link), date = news_date)
+  if (page_num == 1) {
+    news_df <- page_df
+  } else {
+    news_df <- rbind(news_df, page_df)
+  }
+}
+```
+
 
 
 

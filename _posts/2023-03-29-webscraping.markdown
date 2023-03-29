@@ -32,7 +32,7 @@ library(openxlsx)
 library(dplyr)
 ```
 
-Next, we will be setting the base website URL that R will scrape the data from
+Next, we will be setting the base website URL that R will scrape the data from:
 
 ```{r}
 base_url <- "https://news.google.com"
@@ -58,8 +58,14 @@ for (page_num in 1:20) {
   }
 }
 ```
-So what exactly are we doing here?
 
+So what exactly are we doing here? Let's break down the code bit by bit:
+
+```{r}
+for (page_num in 1:20) {
+   ...
+}
+```
 Firstly, we're using sets up a *for loop* that will iterate through 20 pages of Google News Singapore search results related to climate change. The loop variable, page_num, will take on values from 1 to 20.
 
 

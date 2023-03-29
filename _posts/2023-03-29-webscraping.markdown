@@ -19,6 +19,11 @@ Web scraping is a technique used to collect content and data from the internet.
 
 ## What software can we use?
 
-For this example, we will be using R. Typically, both Python and R works well.
+For this example, we will be using R. Typically, both [R][1] and [Python][2] works well.
+
+
+
+[1]: https://posit.co/products/open-source/rstudio/
+[2]: https://www.python.org
 
 

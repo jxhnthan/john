@@ -15,7 +15,7 @@ externalLink: false
 
 ## What exactly is webscraping?
 
-Web scraping is a technique used to collect content and data from the internet.
+Webscraping is a technique used to collect content and data from the internet.
 
 ## What software can we use?
 
@@ -58,6 +58,9 @@ for (page_num in 1:20) {
   }
 }
 ```
+So what exactly are we doing here?
+
+Firstly, we're using sets up a *for loop* that will iterate through 20 pages of Google News Singapore search results related to climate change. The loop variable, page_num, will take on values from 1 to 20.
 
 
 

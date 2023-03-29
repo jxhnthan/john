@@ -1,5 +1,5 @@
 ---
-title: ":Webscraping Google News"
+title: "Webscraping Google News"
 layout: post
 date: 2023-04-29 14:00
 tag: jekyll
@@ -12,7 +12,9 @@ category: project
 author: Johnathan
 externalLink: false
 ---
-What exactly is webscraping?
+
+
 ---
+What exactly is webscraping?
 
 ---

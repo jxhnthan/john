@@ -103,10 +103,6 @@ if (page_num == 1) {
   }
 ```
 
-## Conclusion
-R is a powerful tool for extracting valuable data from websites. In this particular example, I demonstrated how to scrape Google News search results related to climate change in Singapore and combine the results from multiple pages into a single data frame.
-
-
 
 [1]: https://posit.co/products/open-source/rstudio/
 [2]: https://www.python.org

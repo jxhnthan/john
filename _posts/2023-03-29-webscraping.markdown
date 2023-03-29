@@ -38,7 +38,7 @@ Next, we will be setting the base website URL that R will scrape the data from:
 base_url <- "https://news.google.com"
 ```
 
-Alright, here's where the magic happens:
+Alright, here's where the magic happens - we will be searcing for articles relating to "Climate Change".
 
 ```{r}
 for (page_num in 1:20) {

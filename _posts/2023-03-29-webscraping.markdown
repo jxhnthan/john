@@ -89,7 +89,9 @@ Here, we're extracting the information that we want from each search result - th
   news_outlet <- html_nodes(news_div, ".wEwyrc") %>% html_text()
   news_link <- lapply(news_url, function(url) paste0(base_url, url))
 ```
-Lastly, the if-else statement checks whether the current page is the first page of search results (if (page_num == 1)). If it is, the news_df data frame is assigned to the page_df data frame from the current page, and news_df is initialized with this data frame.
+Lastly, the *if-else statement* checks whether the current page is the first page of search results (if (page_num == 1)). If it is, the news_df data frame is assigned to the page_df data frame from the current page, and news_df is initialized with this data frame.
+
+If the current page is not the first page (else), the rbind() function is used to combine the data from the current page (page_df) with the existing news_df data frame. rbind() stacks the rows of the two data frames on top of each other and returns a new data frame with the combined data.
 
 ```{r}
 if (page_num == 1) {

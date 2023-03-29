@@ -60,6 +60,7 @@ for (page_num in 1:20) {
 ```
 
 ## Breaking down the code
+
 So what exactly are we doing here? Let's break down the code bit by bit:
 
 ```{r}
@@ -69,8 +70,12 @@ for (page_num in 1:20) {
 ```
 Firstly, we're using sets up a *for loop* that will iterate through 20 pages of Google News Singapore search results related to climate change. The loop variable, page_num, will take on values from 1 to 20.
 
+```{r}
+url <- paste0(base_url, "/search?q=Climate%20Change&hl=en-SG&gl=SG&ceid=SG%3Aen",(page_num - 1) * 100)
+```
+Next, this line of code constructs a URL for a specific page of Google News search results. The URL is built using the paste0() function, which concatenates its arguments into a single string with no separator.
 
-
+We use *(page_num - 1) * 100*
 
 
 

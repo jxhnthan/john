@@ -19,7 +19,9 @@ Webscraping is a technique used to collect content and data from the internet.
 
 ## What software can we use?
 
-For this example, we will be using R. Typically, both [R][1] and [Python][2] works well.
+For this example, we will be using R to scrape Google News & store the output into an excel file.
+
+Typically, both [R][1] and [Python][2] works well.
 
 ## Let's jump straight into the code:
 
@@ -102,7 +104,7 @@ if (page_num == 1) {
 ```
 
 ## Conclusion
-R is a powerful tool for extracting valuable data from websites. In this particular example, we demonstrated how to scrape Google News search results related to climate change in Singapore and combine the results from multiple pages into a single data frame.
+R is a powerful tool for extracting valuable data from websites. In this particular example, I demonstrated how to scrape Google News search results related to climate change in Singapore and combine the results from multiple pages into a single data frame.
 
 
 

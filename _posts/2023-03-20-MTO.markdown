@@ -16,3 +16,7 @@ externalLink: false
 ## What exatly is a Mandatory Treatment Order (MTO)?
 
 In Singapore, a Mandatory Treatment Order ("MTO") is a form of community-based sentencing ("CBS") which requires an offender to undergo psychiatric treatment at the Institute of Mental Health ("IMH") for a period not exceeding three years. 
+
+Upon completion of the MTO, the conviction will be considered "spent". This means that the offender is deemed not to have a criminal record for that offence after completing MTO.
+
+Is such a system susceptible to abuse? Let's try to find out.

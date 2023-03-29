@@ -1,1 +1,14 @@
-
+---
+title: "Policing"
+layout: post
+date: 2023-03-20 22:10
+tag: r
+image: false
+headerImage: false
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Placeholder Text."
+category: project
+author: john
+externalLink: false
+---

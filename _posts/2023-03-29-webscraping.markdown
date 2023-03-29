@@ -21,7 +21,16 @@ Web scraping is a technique used to collect content and data from the internet.
 
 For this example, we will be using R. Typically, both [R][1] and [Python][2] works well.
 
+## Let's jump straight into the code
 
+Start by loading the libraries that we will be using.
+
+```{r}
+library(rvest)
+library(tidyverse)
+library(openxlsx)
+library(dplyr)
+```
 
 [1]: https://posit.co/products/open-source/rstudio/
 [2]: https://www.python.org

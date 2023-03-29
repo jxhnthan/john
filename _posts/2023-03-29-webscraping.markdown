@@ -1,7 +1,7 @@
 ---
 title: "Webscraping Google News"
 layout: post
-date: 2023-04-29 14:00
+date: 2023-03-29 14:00
 tag: jekyll
 image: https://upload.wikimedia.org/wikipedia/commons/3/33/Google_News.png?20211029151451
 headerImage: true

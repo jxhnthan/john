@@ -79,7 +79,7 @@ The expression *(page_num - 1) * 100* calculates the starting index for the sear
 url <- paste0(base_url, "/search?q=Climate%20Change&hl=en-SG&gl=SG&ceid=SG%3Aen",(page_num - 1) * 100)
 ```
 
-Here, we're extracting the information that we want from each search result - the title of the news article, the date of the news article, the URL of the news article, the news outlet and the relevant link.
+Here, we're extracting the information that we want from each search result - the title of the news article, the date of the news article, the URL of the news article, the news outlet and the relevant article link.
 
 ```{r}
  news_div <- html_nodes(webpage, ".xrnccd")

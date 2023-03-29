@@ -75,8 +75,7 @@ url <- paste0(base_url, "/search?q=Climate%20Change&hl=en-SG&gl=SG&ceid=SG%3Aen"
 ```
 Next, this line of code constructs a URL for a specific page of Google News search results. The URL is built using the paste0() function, which concatenates its arguments into a single string with no separator.
 
-We use *(page_num - 1) * 100*
-
+The expression *(page_num - 1) * 100* calculates the starting index for the search results to be displayed on each page.
 
 
 

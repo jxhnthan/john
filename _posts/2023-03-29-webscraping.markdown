@@ -59,6 +59,7 @@ for (page_num in 1:20) {
 }
 ```
 
+## Breaking down the code
 So what exactly are we doing here? Let's break down the code bit by bit:
 
 ```{r}

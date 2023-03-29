@@ -13,6 +13,6 @@ author: john
 externalLink: false
 ---
 
-## Research Question
+## Placeholder
 
 Placeholder.

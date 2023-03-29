@@ -1,21 +1,14 @@
 ---
-title: "Webscraping Google News"
+title: ":ramen: Indigo, minimalist jekyll theme"
 layout: post
-date: 2023-03-29 14:00
-tag:
-- R
-image: false
-headerImage: false
+date: 2016-01-23 22:10
+tag: jekyll
+image: https://sergiokopplin.github.io/indigo/assets/images/jekyll-logo-light-solid.png
+headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This project showcases how one can utilise R to scrape news articles from GoogleNews."
-category: projects
-author: Johnathan
+description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+category: project
+author: johndoe
 externalLink: false
----
-
-
----
-What exactly is webscraping?
-
 ---

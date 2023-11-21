@@ -2,7 +2,7 @@
 title: "Password Generator Web Application"
 layout: post
 date: 2023-11-20 17:00
-tag: js
+tag: web-apps
 image: false
 headerImage: false
 projects: true

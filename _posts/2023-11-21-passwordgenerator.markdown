@@ -7,11 +7,11 @@ image: false
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This project showscases a Web Application used to generate complex passwords."
+description: "This project showcases a Web Application used to generate complex passwords."
 category: project
 author: johndoe
 externalLink: false
 ---
 
 ## Link to access the Web Application
-https://password-generator-khaki-omega-98.vercel.app/
+[Password Generator App](https://password-generator-khaki-omega-98.vercel.app/)

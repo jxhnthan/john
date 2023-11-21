@@ -18,3 +18,6 @@ externalLink: false
 
 ## What's the rationale?
 I wanted to create a web application capable of swiftly generating robust passwords without the need to rely on external websites. 
+
+## How did I deploy?
+Deployment of the Web Application was done through [Vercel](https://vercel.com/), which is completely free.

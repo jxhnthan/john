@@ -1,5 +1,5 @@
 ---
-title: "Password Generator Web App"
+title: "Password Generator Web Application"
 layout: post
 date: 2023-11-20 17:00
 tag: js

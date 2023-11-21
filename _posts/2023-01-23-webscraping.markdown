@@ -9,7 +9,7 @@ projects: true
 hidden: true # don't count this post in blog pagination
 description: "This project showscases how one can webscrape news articles from Google News."
 category: project
-author: johndoe
+author: john
 externalLink: false
 ---
 

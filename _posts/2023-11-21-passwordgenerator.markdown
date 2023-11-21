@@ -7,7 +7,7 @@ image: false
 headerImage: false
 projects: true
 hidden: true # don't count this post in blog pagination
-description: "This project showscases how one can webscrape news articles from Google News."
+description: "This project showscases a Web Application used to generate complex passwords."
 category: project
 author: johndoe
 externalLink: true

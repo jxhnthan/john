@@ -13,5 +13,5 @@ author: johndoe
 externalLink: false
 ---
 
-## Link to access the Web Application
+## Web Application Link
 [Password Generator App](https://password-generator-khaki-omega-98.vercel.app/)

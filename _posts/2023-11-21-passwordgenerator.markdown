@@ -17,4 +17,4 @@ externalLink: false
 [Password Generator App](https://password-generator-khaki-omega-98.vercel.app/)
 
 ## What's the rationale?
-I wanted to create a web application capable of swiftly generating robust passwords without the need for external websites. 
+I wanted to create a web application capable of swiftly generating robust passwords without the need to rely on external websites. 
